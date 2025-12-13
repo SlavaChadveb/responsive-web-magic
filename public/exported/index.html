@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стратегия прорыва - Юридическая защита инновационного бизнеса</title>
+    <meta name="description" content="Полная юридическая защита инновационного бизнеса. Защита интеллектуальной собственности, сопровождение сделок, консультации.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__decoration-top"></div>
+        <div class="header__texture"></div>
+        
+        <div class="header__container">
+            <div class="header__logo">
+                <div class="header__logo-circle">СП</div>
+            </div>
+
+            <nav class="header__nav" id="headerNav">
+                <ul class="header__menu">
+                    <li class="header__menu-item">
+                        <a href="#products" class="header__menu-link">Продукты</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#cases" class="header__menu-link">Кейсы</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#about" class="header__menu-link">О компании</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#contacts" class="header__menu-link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="header__consult-btn" type="button" id="consultBtn">Обсудить мой кейс</button>
+
+            <button class="header__burger" type="button" aria-label="Открыть меню" id="burgerBtn">
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+            </button>
+        </div>
+        <div class="header__overlay" id="headerOverlay"></div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Полная юридическая защита инновационного бизнеса</h1>
+                    <p class="hero__description">Сосредоточтесь на развитии бизнеса, остальное мы возьмем на себя</p>
+                    <button class="hero__btn" type="button" id="heroBtn">Обсудить мой кейс</button>
+                </div>
+                <div class="hero__image">
+                    <div class="hero__image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=600&fit=crop" alt="Юридическая защита бизнеса" class="hero__img">
+                        <div class="hero__image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Section -->
+        <section class="why-choose" id="products">
+            <div class="why-choose__container">
+                <h2 class="why-choose__title">
+                    Почему <span class="why-choose__highlight">выбирают нас</span>
+                </h2>
+                <div class="why-choose__divider"></div>
+                <div class="why-choose__grid">
+                    <div class="why-choose__card" data-delay="0.1">
+                        <div class="why-choose__icon why-choose__icon--shield">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+                            </svg>
+                        </div>
+                        <div class="why-choose__card-content">
+                            <h3 class="why-choose__card-title">Защита интеллектуальной собственности</h3>
+                            <p class="why-choose__card-desc">Оформляем права на продукты, бренды и разработки, чтобы ваши идеи были надёжно защищены.</p>
+                        </div>
+                    </div>
+                    <div class="why-choose__card" data-delay="0.2">
+                        <div class="why-choose__icon why-choose__icon--contract">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+                            </svg>
+                        </div>
+                        <div class="why-choose__card-content">
+                            <h3 class="why-choose__card-title">Полное сопровождение бизнеса и сделок</h3>
+                            <p class="why-choose__card-desc">Готовим договоры, инвестсделки, регламенты — закрываем все юридические вопросы за вас.</p>
+                        </div>
+                    </div>
+                    <div class="why-choose__card" data-delay="0.3">
+                        <div class="why-choose__icon why-choose__icon--flash">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M7 2v11h3v9l7-12h-4l4-8H7z"/>
+                            </svg>
+                        </div>
+                        <div class="why-choose__card-content">
+                            <h3 class="why-choose__card-title">Прозрачность и скорость работы</h3>
+                            <p class="why-choose__card-desc">Консультации без ограничений, документы вовремя, без бюрократии и «юридической воды».</p>
+                        </div>
+                    </div>
+                    <div class="why-choose__card" data-delay="0.4">
+                        <div class="why-choose__icon why-choose__icon--shield">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+                            </svg>
+                        </div>
+                        <div class="why-choose__card-content">
+                            <h3 class="why-choose__card-title">Юридический «щит» для масштабирования</h3>
+                            <p class="why-choose__card-desc">Помогаем избежать ошибок при привлечении инвестиций, расширении команды и выходе на новые рынки.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cases Section -->
+        <section class="section" id="cases">
+            <div class="section__container">
+                <h2 class="section__title">
+                    Наши <span class="section__highlight">кейсы</span>
+                </h2>
+                <div class="section__divider"></div>
+                <p class="section__text">Раздел с успешными кейсами клиентов — скоро будет доступен.</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section section--muted" id="about">
+            <div class="section__container">
+                <h2 class="section__title">
+                    О <span class="section__highlight">компании</span>
+                </h2>
+                <div class="section__divider"></div>
+                <p class="section__text">Информация о компании «Стратегия прорыва» — скоро будет доступна.</p>
+            </div>
+        </section>
+
+        <!-- Contacts Section -->
+        <section class="section" id="contacts">
+            <div class="section__container">
+                <h2 class="section__title">
+                    <span class="section__highlight">Контакты</span>
+                </h2>
+                <div class="section__divider"></div>
+                <p class="section__text">Свяжитесь с нами для обсуждения вашего кейса.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
